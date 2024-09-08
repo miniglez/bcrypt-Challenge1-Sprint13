@@ -6,7 +6,7 @@ La estructura será la siguiente:
 - routes 
   - users.js // Aquí estarán todas las rutas
 - data
-  - users.js // Irán los usuarios de prueba de sesión con id, usuario, contraseña y nombre.
+  - users.js // Irán los usuarios de prueba de sesión con id, usuario, contraseña y nombre. >> OKS
 - middlewares
   - authMiddleware.js // Este middleware manejará la generación del token y verificación.
 - crypto
