@@ -22,7 +22,7 @@ router.get("/", (req, res) => {
 
 router.post("/login", (req, res) => {
     const {username, password} = req.body
-    const user = users.find(user => user.username && user.password === password)
+    const user = users.find(user => user.username === username && user.password === password)
     
     if(!user){
         res.status(401).json({error: "Credenciales incorrectas"})
